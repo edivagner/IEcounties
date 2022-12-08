@@ -1,14 +1,27 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Week 8 Exercise 1
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v3">docs</a> will be your guide.
-  </p>
+  Provinces of Ireland
+
+  <ol>
+    <li (click)="openUlster()">
+      <p>Ulster</p>
+    </li>
+    <li (click)="openMunster()">
+      <p>Munster</p>
+    </li>
+    <li (click)="openConnaught()">
+      <p>Connaught</p>
+    </li>
+    <li (click)="openLeinster()">
+      <p>Leinster</p>
+    </li>
+  </ol>
+
 </ion-content>
